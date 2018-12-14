@@ -58,7 +58,7 @@ class App extends Component {
       <div className="App">
         <header>
           <div className="wrapper">
-            <h1>Fun Food Friends</h1>
+            <h1>Inventory</h1>
           </div>
         </header>
         <div className="container">
