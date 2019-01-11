@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import firebase from "./firebase.js";
-
+//const url mongo
 class App extends Component {
   constructor() {
     super();
@@ -21,7 +21,7 @@ class App extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    const itemsRef = firebase.database().ref("items");
+    const itemsRef = firebase.database().ref("items");//firebase.database() is .ref notation to the js file. use mongo url ref instead
     const item = {
       title: this.state.currentItem,
       user: this.state.username
